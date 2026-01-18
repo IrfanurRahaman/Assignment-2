@@ -8,32 +8,56 @@
     box-sizing: border-box;
 }
 
-
-
 .gradient{
     background:linear-gradient(45deg,#F7E93F, #FB09B4, #9100F8)
 }
-
+        /* navbar section here */
+header{
+    background-color: #1A0B2E;
+}
 nav{
     display: flex;
-    background-color: #1A0B2E;
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0px;
 }
 
 .logo{
     color: white;
 }
 
+.logo .Wave{
+    background: linear-gradient(45deg,#F7E93F, #FB09B4, #9100F8);
+    background-clip: text;
+    color: transparent;
+}
+
 .menu ul{
     display: flex;
+    gap: 32px;
     list-style: none;
 }
 
 .menu ul a{
-    color: white;
+    color: #FFFFFF;
+    opacity: 90%;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
-button{
+.first-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
     padding: 12.5px 16px;
     border-radius: 20px;
     border: none;
+    color: white;
+    font-size: 1rem;
 }
+
