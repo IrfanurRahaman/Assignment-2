@@ -14,6 +14,7 @@
         /* navbar section here */
 header{
     background-color: #1A0B2E;
+    border-bottom: 2px solid #9100f8cf;
 }
 nav{
     display: flex;
@@ -49,6 +50,10 @@ nav{
     font-weight: 500;
 }
 
+.menu-bar{
+    display: none;
+}
+
 .first-btn{
     display: flex;
     justify-content: center;
@@ -60,4 +65,22 @@ nav{
     color: white;
     font-size: 1rem;
 }
+
+
+@media screen and (max-width:576px) {
+
+    nav{
+        width: 90%;
+        align-items: center;
+    }
+    nav .menu, .first-btn{
+        display: none;
+    }
+
+    .menu-bar{
+        display: grid;
+        color: white;
+    }
+}
+
 
