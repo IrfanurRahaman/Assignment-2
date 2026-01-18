@@ -14,7 +14,7 @@
         /* navbar section here */
 header{
     background-color: #1A0B2E;
-    border-bottom: 2px solid #9100f8cf;
+    border-bottom: 1px solid #9100f897;
 }
 nav{
     display: flex;
@@ -60,10 +60,115 @@ nav{
     align-items: center;
     gap: 4px;
     padding: 12.5px 16px;
-    border-radius: 20px;
+    border-radius: 50px;
     border: none;
     color: white;
     font-size: 1rem;
+}
+
+/* banner section */
+
+.banner{
+    background: url(./assets/hero-bg.png);
+    background-position: center;
+    padding-top: 101px;
+}
+
+.banner-container{
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 101px;
+}
+
+.banner-ball{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid #2A186C;
+    background: linear-gradient(45deg,#F7E93F, #FB09B4, #9100F8);
+    border-radius: 50%;
+}
+
+.banner-ball{
+    position: relative;
+}
+
+.banner-ball .new{
+    height: 38px;
+    width: 75px;
+    background-color: #00FF88;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 0px 0px 20px #00FF88;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.banner-text{
+    color: white;
+}
+
+.banner-text h1{
+    font-size: 3.75rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.banner-text p{
+    font-size: 1rem;
+    opacity: 80%;
+    margin-bottom: 24px;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-2{
+    padding: 12.5px 20px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.btn-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(245, 222, 179, 0);
+    border: 2px solid #00FF88;
+    padding: 12.5px 20px;
+    border-radius: 50px;
+    color: #00FF88;
+    font-size: 16px;
+    font-weight: 600;
+
 }
 
 
