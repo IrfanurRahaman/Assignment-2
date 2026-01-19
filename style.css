@@ -180,7 +180,70 @@ button{
 
 }
 
-         /* mobile responsive */
+/* about section here */
+
+.about{
+    background-color: #1A0B2E;
+}
+
+.about .about-container{
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.about-container .about-text{
+    border-bottom: 1px solid #2e1250;
+    margin-bottom: 80px;
+}
+
+.about-text h3{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.about-text p{
+    color: white;
+    font-size: 1rem;
+    opacity: 70%;
+    margin-bottom: 80px;
+    line-height: 20px;
+}
+
+.about-container .about-numbers{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+        
+.about-container .about-numbers h3{
+    font-size: 48px;
+    color: #00FF88;
+    margin-bottom: 16px;
+}
+
+.about-container .about-numbers p{
+    color: white;
+    opacity: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive */
+
+
 
 @media screen and (max-width:576px) {
 
