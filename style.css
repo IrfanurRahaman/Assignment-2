@@ -230,6 +230,86 @@ button{
     opacity: 70%;
 }
 
+     /* features section */
+
+.features{
+    background-color: #230E3D;
+    padding-top: 120px;
+}     
+
+.feature-container{
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 120px;
+}     
+
+
+
+.feature-1, 
+.feature-2, 
+.feature-3, 
+.feature-4, 
+.feature-5{
+    background-color: #351165;
+    padding: 40px;
+    border-radius: 40px;
+    text-align: start;
+}
+
+.feature-container h1{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.feature-1{
+    padding:107.5px 40px;
+    grid-area: feature-1;
+}
+
+.feature-2{
+    grid-area: feature-2;
+}
+
+.feature-3{
+    grid-area: feature-3;
+}
+
+.feature-4{
+    grid-area: feature-4;
+}
+
+.feature-5{
+    grid-area: feature-5;
+}
+
+.feature-grid h4{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.feature-grid p{
+    color: white;
+    font-size: 16px;
+    opacity: 60%;
+    line-height: 24px;
+}
+
+.feature-grid{
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+                        "feature-1 feature-2 feature-2 feature-2"
+                        "feature-1 feature-3 feature-3 feature-3"
+                        "feature-4 feature-4 feature-4 feature-5";
+}
 
 
 
