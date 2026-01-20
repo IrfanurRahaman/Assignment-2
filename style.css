@@ -118,6 +118,20 @@ button{
     box-shadow: 0px 0px 20px #00FF88;
     font-size: 18px;
     font-weight: 600;
+    animation: new-badge-moving 2s ease-in-out infinite;
+}
+
+
+@keyframes new-badge-moving {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-15px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 .banner-img{
@@ -514,7 +528,6 @@ footer{
   }
 
   .banner{
-    background: url(./assets/hero-bg.png);
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -650,6 +663,30 @@ footer{
 
   .episode-host .host-content h4{
     font-size: 24px;
+  }
+
+  /* responsive footer */
+
+  footer{
+    padding: 40px 20px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .footer-container{
+    width: 90%;
+  }
+
+  .footer-container .footer-social{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .footer-container .logo-footer img{
+    height: 32px;
+    width: 218px;
   }
 
 }
