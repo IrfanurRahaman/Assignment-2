@@ -261,7 +261,7 @@ button{
 .feature-container h1{
     color: white;
     margin-bottom: 40px;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 40px;
 }
@@ -289,7 +289,7 @@ button{
 
 .feature-grid h4{
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 16px;
     margin-top: 16px;
@@ -297,7 +297,7 @@ button{
 
 .feature-grid p{
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     opacity: 60%;
     line-height: 24px;
 }
@@ -386,18 +386,61 @@ button{
 
   .about .about-container{
     width: 90%;
+    padding-top: 40px;
   }
 
   .about-text h3{
     font-size: 2rem;
   }
+  .about-text p{
+    margin-bottom: 40px;
+  }
 
+  .about-container .about-text{
+    margin-bottom: 40px;
+  }
   .about-container .about-numbers{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
     padding-bottom: 40px;
   }
+
+  /* responsive features section */
+
+  .features{
+    padding-top: 40px;
+  }
+
+  .feature-container{
+    width: 90%;
+    padding-bottom: 40px;
+  }
+
+  .feature-container h1{
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+
+  .feature-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .feature-1, 
+  .feature-2, 
+  .feature-3, 
+  .feature-4, 
+  .feature-5{
+    padding: 24px;
+    border-radius: 24px;
+  }
+
+  .feature-grid h4{
+    font-size: 1.37rem;
+  }
+
 }
 
 
