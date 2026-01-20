@@ -548,6 +548,56 @@ button{
     font-size: 1.37rem;
   }
 
+  /* responsive episode-host section */
+
+  .episode-host{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .episode-host h2{
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  .episode{
+    width: 90%;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 60px;
+  }
+
+  .content-text h5{
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .episode .content-text{
+    padding: 16px;
+  }
+
+  .episode-host .host{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    padding: 24px;
+  }
+
+  .host .host-img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .host-content .host-links{
+    justify-content: center;
+  }
+
+  .episode-host .host-content h4{
+    font-size: 24px;
+  }
+
 }
 
 
