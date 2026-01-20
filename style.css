@@ -180,6 +180,7 @@ button{
 
 }
 
+
 /* about section here */
 
 .about{
@@ -311,12 +312,118 @@ button{
                         "feature-4 feature-4 feature-4 feature-5";
 }
 
+/* episode and host section */
 
+.episode{
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 120px;
+}
 
+.episode-host{
+    background-color: #1A0B2E;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+.episode-host h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: white;
+}
 
+.episode .content{
+    background-color: #250D44;
+    border-radius: 20px;
+    overflow: hidden;
 
+}
 
+.episode .content-text{
+    padding: 24px;
+    color: white;
+}
 
+.frame{
+    width: 100%;
+    aspect-ratio: 16/ 9;
+}
+
+.frame iframe{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.content-text h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.content-text p{
+    font-size: 1rem;
+    opacity: 60%;
+    margin-bottom: 12px;
+}
+
+.clock{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.clock-time{
+    font-size: 16px;
+    font-weight: 600;
+    color: #00FF88;
+}
+
+.episode-host .host{
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+}
+.episode-host .host-content h4{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.episode-host .host-content p{
+    color: white;
+    font-size: 16px;
+    opacity: 60%;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.episode-host .host{
+    background-color: #250D44;
+    padding: 48.5px 40px;
+    border-radius: 40px;
+}
+
+.host .host-links{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.host-links .link{
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    padding: 12px;
+    align-items: center;
+    
+}
 
 
 
